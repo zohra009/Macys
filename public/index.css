@@ -1,0 +1,94 @@
+html {
+	background: #cyan;
+}
+dl {
+	background: black;
+}
+dl li{
+	display: inline-block;
+	margin: 0;
+}
+div.section1{
+	vertical-align: top;
+    text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+#image1{
+	margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 310px;
+}
+.text1 {
+	text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+	
+}
+/* got rid off this sectionheader class */
+/* .sectionheader {
+	font-size: 1.25em;
+} */
+a {
+	color: #fff;
+}
+.sectionheader {
+	text-align: center;
+	font-size: 2.00em;
+	margin: 0;
+}
+div.cat2 {
+	vertical-align: top;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-content: center;
+    align-items: center;
+}
+
+#image2 {
+	margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 325px;
+}
+
+/* .copy span */
+.text2 {
+	text-align: left;
+	margin-left: 25%;
+    margin-right: 25%;
+	
+}
+/* added a footer style  */
+ #footer{ 
+	background: rgba(0,0,0,0.5);
+	 padding: 20px; 
+	 width: 100wv; 
+	 display: block; 
+	 color: #fff;
+	 line-height: 40px;
+	 text-align: center;
+}
+#bottomalign {
+	margin-bottom:0px;
+    position: absolute;
+    
+} 
+
+@media (min-width: 640px) { body {font-size:1rem;} }
+@media (min-width:960px) { body {font-size:1.2rem;} }
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+
+/* combined the styles under same class */
+/* .text {
+	float: right;
+	width: 30%;
+    margin: 0 15% 0 0;
+} */

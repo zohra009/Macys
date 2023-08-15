@@ -1,7 +1,7 @@
 $('#bottomalign').css('text-align','center')
 
 
-//2nd attempt to fetch the content of the `bodyHtml` field from JSON document `/test_feed
+//2nd attempt to get the content of the `bodyHtml` field from JSON document `/test_feed
 // so forEach iterates over an array of items
 // In this case the items are objects
 // So obj for short is first argument

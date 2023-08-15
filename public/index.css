@@ -8,6 +8,7 @@ dl li{
 	display: inline-block;
 	margin: 0;
 }
+/* added this section  */
 div.section1{
 	vertical-align: top;
     text-align: center;
@@ -16,30 +17,34 @@ div.section1{
 	flex-direction: column;
 	flex-wrap: nowrap;
 }
+/* added this section */
 #image1{
 	margin-left: auto;
     margin-right: auto;
     width: 350px;
     height: 310px;
 }
+/* added this section */
 .text1 {
 	text-align: left;
     margin-left: 25%;
     margin-right: 25%;
 	
 }
-/* got rid off this sectionheader class */
+/* got rid off this duplicate sectionheader class */
 /* .sectionheader {
 	font-size: 1.25em;
 } */
 a {
 	color: #fff;
 }
+/* added this section */
 .sectionheader {
 	text-align: center;
 	font-size: 2.00em;
 	margin: 0;
 }
+/* added this section */
 div.cat2 {
 	vertical-align: top;
 	text-align: center;
@@ -50,6 +55,7 @@ div.cat2 {
 	align-content: center;
     align-items: center;
 }
+/* added this section */
 
 #image2 {
 	margin-left: auto;
@@ -58,14 +64,14 @@ div.cat2 {
     height: 325px;
 }
 
-/* .copy span */
+/* added this section */
 .text2 {
 	text-align: left;
 	margin-left: 25%;
     margin-right: 25%;
 	
 }
-/* added a footer style  */
+/* added this section and cleaned up in-line styling in html*/
  #footer{ 
 	background: rgba(0,0,0,0.5);
 	 padding: 20px; 
@@ -75,12 +81,14 @@ div.cat2 {
 	 line-height: 40px;
 	 text-align: center;
 }
+/* added this section nd cleaned up in-line styling in html*/
 #bottomalign {
 	margin-bottom:0px;
     position: absolute;
     
 } 
 
+/* added this section and made it responsive */
 @media (min-width: 640px) { body {font-size:1rem;} }
 @media (min-width:960px) { body {font-size:1.2rem;} }
 @media (min-width:1100px) { body {font-size:1.5rem;} }

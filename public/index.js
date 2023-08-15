@@ -15,18 +15,7 @@ function parseArr(){
   
 }
 
-// 2. Build a data structure that captures the count of each word in the content of the `bodyHtml` field(s) from JSON document `/test_feed.json`.
-// function reqData () {
-//     fetch('url')
-//     .then((response) => response.json())  //getting back the response object which we want to receive the response content as JSON
-//     .then((data) => {
-//      console.log(json)); //using the JSON method w.in fetch to reterive data object
-// })
-// .catch ((error)=> 
-// {
-//     console.error(error);
-// })
-// }
+
 
 
 
